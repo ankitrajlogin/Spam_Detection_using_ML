@@ -30,33 +30,36 @@ MultinomialNB is a Naive Bayes classifier suitable for classification with discr
 ### Classification Report
 The classification_report function provides a detailed report showing the precision, recall, F1-score, and support for each class. This helps in understanding the performance of the model for both spam and ham classes.
 
-Precision
+### Precision
 Precision is the ratio of correctly predicted positive observations to the total predicted positives. It measures how many of the predicted spam messages were actually spam.
 
 Formula:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/08f83278-0cb0-4c22-8064-5b3652548e4c)
+
 
 A high precision indicates that the classifier returned more relevant results than irrelevant ones.
 
 
-Recall (Sensitivity or True Positive Rate)
+### Recall (Sensitivity or True Positive Rate)
 Recall is the ratio of correctly predicted positive observations to all actual positives. It measures how many of the actual spam messages were correctly identified.
 
 Formula:
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/bf07a219-4560-4790-b08e-34164e2a91dc)
+
  
 High recall indicates that the model successfully captured most of the relevant results.
 
-F1-Score
+### F1-Score
 The F1-score is the harmonic mean of precision and recall, combining them into a single metric. It balances the two metrics, especially when you need a measure that considers both precision and recall.
 
 Formula:
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/2d47cf1e-0aaf-46a1-8325-c3ca22aa0fa5)
+
 
  
 The F1-score is useful when you want to seek a balance between precision and recall, particularly when dealing with an imbalanced dataset.
 
-Support
+### Support
 Support refers to the number of actual occurrences of each class in the dataset. It provides context for understanding the precision, recall, and F1-score metrics, showing how many true instances of each class are present in the dataset.
 
 
